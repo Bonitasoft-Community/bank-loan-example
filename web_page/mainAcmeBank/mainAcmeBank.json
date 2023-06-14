@@ -2,7 +2,7 @@
   "modelVersion" : "2.3",
   "id" : "mainAcmeBank",
   "name" : "mainAcmeBank",
-  "lastUpdate" : 1677541380078,
+  "lastUpdate" : 1686731759966,
   "rows" : [
     [
       {
@@ -109,7 +109,7 @@
                 },
                 "processVersion" : {
                   "type" : "constant",
-                  "value" : "1.0"
+                  "value" : "1.1"
                 },
                 "taskId" : {
                   "type" : "constant"
