@@ -1,8 +1,12 @@
 {
-  "modelVersion" : "2.3",
   "id" : "mainAcmeBank",
   "name" : "mainAcmeBank",
-  "lastUpdate" : 1686731759966,
+  "type" : "page",
+  "uuid" : "00579ca7-e796-4fa5-aed0-a8fe1dad712d",
+  "modelVersion" : "2.4",
+  "previousArtifactVersion" : "2.3",
+  "lastUpdate" : 1686734196260,
+  "description" : "Page generated with Bonita UI designer",
   "rows" : [
     [
       {
@@ -900,23 +904,6 @@
       }
     ]
   ],
-  "assets" : [
-    {
-      "id" : "76daa0bf-887b-453f-b3e9-8c1a5de556ab",
-      "name" : "style.css",
-      "type" : "css",
-      "order" : 0,
-      "external" : false
-    },
-    {
-      "id" : "628d5ac7-a92f-4896-a961-772833e4c5d0",
-      "name" : "localization.json",
-      "type" : "json",
-      "order" : 0,
-      "external" : false
-    }
-  ],
-  "inactiveAssets" : [ ],
   "variables" : {
     "loanRequest" : {
       "type" : "businessdata",
@@ -947,8 +934,23 @@
       "exposed" : false
     }
   },
-  "hasValidationError" : false,
-  "uuid" : "00579ca7-e796-4fa5-aed0-a8fe1dad712d",
-  "type" : "page",
-  "description" : "Page generated with Bonita UI designer"
+  "assets" : [
+    {
+      "id" : "76daa0bf-887b-453f-b3e9-8c1a5de556ab",
+      "name" : "style.css",
+      "type" : "css",
+      "order" : 0,
+      "external" : false
+    },
+    {
+      "id" : "628d5ac7-a92f-4896-a961-772833e4c5d0",
+      "name" : "localization.json",
+      "type" : "json",
+      "order" : 0,
+      "external" : false
+    }
+  ],
+  "inactiveAssets" : [ ],
+  "webResources" : [ ],
+  "hasValidationError" : false
 }

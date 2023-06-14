@@ -1,8 +1,12 @@
 {
-  "modelVersion" : "2.3",
   "id" : "requestLoan",
   "name" : "requestLoan",
-  "lastUpdate" : 1677542257426,
+  "type" : "form",
+  "uuid" : "03850db7-ba31-40da-a21d-d9ac98065a11",
+  "modelVersion" : "2.4",
+  "previousArtifactVersion" : "2.3",
+  "lastUpdate" : 1686734196345,
+  "description" : "Page generated with Bonita UI designer",
   "rows" : [
     [
       {
@@ -1045,32 +1049,6 @@
       }
     ]
   ],
-  "assets" : [
-    {
-      "id" : "7b717dfc-93d7-42f7-a389-f3eec7ca1a92",
-      "name" : "style.css",
-      "type" : "css",
-      "order" : 1,
-      "external" : false
-    },
-    {
-      "id" : "efddc163-4879-4597-a16b-11e473419121",
-      "name" : "localization.json",
-      "type" : "json",
-      "order" : 1,
-      "external" : false
-    },
-    {
-      "id" : "ae91a67e-bc17-4eab-b366-c5a81a802c8c",
-      "name" : "https://bootswatch.com/5/quartz/bootstrap.css",
-      "type" : "css",
-      "order" : -1,
-      "external" : true
-    }
-  ],
-  "inactiveAssets" : [
-    "7b717dfc-93d7-42f7-a389-f3eec7ca1a92"
-  ],
   "variables" : {
     "formInput" : {
       "type" : "json",
@@ -1131,8 +1109,32 @@
       "exposed" : false
     }
   },
-  "hasValidationError" : false,
-  "uuid" : "03850db7-ba31-40da-a21d-d9ac98065a11",
-  "type" : "form",
-  "description" : "Page generated with Bonita UI designer"
+  "assets" : [
+    {
+      "id" : "7b717dfc-93d7-42f7-a389-f3eec7ca1a92",
+      "name" : "style.css",
+      "type" : "css",
+      "order" : 1,
+      "external" : false
+    },
+    {
+      "id" : "efddc163-4879-4597-a16b-11e473419121",
+      "name" : "localization.json",
+      "type" : "json",
+      "order" : 1,
+      "external" : false
+    },
+    {
+      "id" : "ae91a67e-bc17-4eab-b366-c5a81a802c8c",
+      "name" : "https://bootswatch.com/5/quartz/bootstrap.css",
+      "type" : "css",
+      "order" : -1,
+      "external" : true
+    }
+  ],
+  "inactiveAssets" : [
+    "7b717dfc-93d7-42f7-a389-f3eec7ca1a92"
+  ],
+  "webResources" : [ ],
+  "hasValidationError" : false
 }
