@@ -5,7 +5,7 @@
   "uuid" : "03850db7-ba31-40da-a21d-d9ac98065a11",
   "modelVersion" : "2.4",
   "previousArtifactVersion" : "2.3",
-  "lastUpdate" : 1686734196345,
+  "lastUpdate" : 1686748367711,
   "description" : "Page generated with Bonita UI designer",
   "rows" : [
     [
@@ -547,7 +547,7 @@
                                   "propertyValues" : {
                                     "cssClasses" : {
                                       "type" : "constant",
-                                      "value" : "card text-white bg-primary mb-3"
+                                      "value" : ""
                                     },
                                     "hidden" : {
                                       "type" : "constant",
@@ -688,6 +688,10 @@
                                           "step" : {
                                             "type" : "constant",
                                             "value" : 1
+                                          },
+                                          "debounce" : {
+                                            "type" : "constant",
+                                            "value" : 0
                                           }
                                         },
                                         "reference" : "9e7da074-5a92-4b47-a7d1-e5f8b7e8d49f",
@@ -773,6 +777,10 @@
                                           "step" : {
                                             "type" : "constant",
                                             "value" : 2
+                                          },
+                                          "debounce" : {
+                                            "type" : "constant",
+                                            "value" : 0
                                           }
                                         },
                                         "reference" : "541ab077-8816-44bf-8d23-33f7a4d7c865",
@@ -1121,20 +1129,11 @@
       "id" : "efddc163-4879-4597-a16b-11e473419121",
       "name" : "localization.json",
       "type" : "json",
-      "order" : 1,
+      "order" : 2,
       "external" : false
-    },
-    {
-      "id" : "ae91a67e-bc17-4eab-b366-c5a81a802c8c",
-      "name" : "https://bootswatch.com/5/quartz/bootstrap.css",
-      "type" : "css",
-      "order" : -1,
-      "external" : true
     }
   ],
-  "inactiveAssets" : [
-    "7b717dfc-93d7-42f7-a389-f3eec7ca1a92"
-  ],
+  "inactiveAssets" : [ ],
   "webResources" : [ ],
   "hasValidationError" : false
 }
