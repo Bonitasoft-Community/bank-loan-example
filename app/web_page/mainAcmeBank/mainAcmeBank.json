@@ -5,53 +5,17 @@
   "uuid" : "00579ca7-e796-4fa5-aed0-a8fe1dad712d",
   "modelVersion" : "2.4",
   "previousArtifactVersion" : "2.3",
-  "lastUpdate" : 1686747637608,
+  "lastUpdate" : 1686753757491,
   "description" : "Page generated with Bonita UI designer",
   "rows" : [
     [
-      {
-        "type" : "component",
-        "dimension" : {
-          "xs" : 12,
-          "sm" : 12,
-          "md" : 5,
-          "lg" : 4
-        },
-        "propertyValues" : {
-          "cssClasses" : {
-            "type" : "constant",
-            "value" : ""
-          },
-          "hidden" : {
-            "type" : "constant",
-            "value" : false
-          },
-          "srcType" : {
-            "type" : "constant",
-            "value" : "URL"
-          },
-          "url" : {
-            "type" : "constant",
-            "value" : "https://upload.wikimedia.org/wikipedia/commons/d/d5/Bank_account_-_The_Noun_Project.svg"
-          },
-          "assetName" : {
-            "type" : "expression"
-          },
-          "alt" : {
-            "type" : "interpolation"
-          }
-        },
-        "reference" : "4a53d88f-91ca-4e21-bc6d-3fdb6c27ba7d",
-        "hasValidationError" : false,
-        "id" : "pbImage"
-      },
       {
         "type" : "container",
         "dimension" : {
           "xs" : 12,
           "sm" : 12,
-          "md" : 7,
-          "lg" : 4
+          "md" : 12,
+          "lg" : 12
         },
         "propertyValues" : {
           "cssClasses" : {
@@ -66,123 +30,57 @@
             "type" : "variable"
           }
         },
-        "reference" : "fb4fbd12-d26c-44e5-af0d-602c73ae86f3",
+        "reference" : "6f1fbd78-7f2f-48e1-9c0d-6542c10f974f",
         "hasValidationError" : false,
         "id" : "pbContainer",
         "rows" : [
           [
             {
-              "type" : "component",
-              "dimension" : {
-                "xs" : 12,
-                "sm" : 12,
-                "md" : 12,
-                "lg" : 12
-              },
-              "propertyValues" : {
-                "cssClasses" : {
-                  "type" : "constant",
-                  "value" : ""
-                },
-                "hidden" : {
-                  "type" : "constant",
-                  "value" : false
-                },
-                "allowHTML" : {
-                  "type" : "constant",
-                  "value" : false
-                },
-                "text" : {
-                  "type" : "interpolation",
-                  "value" : "Ask for a loan"
-                },
-                "type" : {
-                  "type" : "constant",
-                  "value" : "process"
-                },
-                "targetUrl" : {
-                  "type" : "constant",
-                  "value" : "http://"
-                },
-                "pageToken" : {
-                  "type" : "constant"
-                },
-                "processName" : {
-                  "type" : "constant",
-                  "value" : "LoanRequestPool"
-                },
-                "processVersion" : {
-                  "type" : "constant",
-                  "value" : "2.0"
-                },
-                "taskId" : {
-                  "type" : "constant"
-                },
-                "caseId" : {
-                  "type" : "constant"
-                },
-                "target" : {
-                  "type" : "constant",
-                  "value" : "_self"
-                },
-                "appToken" : {
-                  "type" : "constant"
-                },
-                "urlParams" : {
-                  "type" : "constant"
-                },
-                "alignment" : {
-                  "type" : "constant",
-                  "value" : "center"
-                },
-                "buttonStyle" : {
-                  "type" : "constant",
-                  "value" : "primary"
-                }
-              },
-              "reference" : "5cd80491-b6a5-43fc-9721-31241ef19787",
-              "hasValidationError" : false,
-              "id" : "pbLink"
-            }
-          ],
-          [
-            {
               "type" : "container",
               "dimension" : {
-                "md" : 12,
-                "sm" : 12,
                 "xs" : 12,
+                "sm" : 12,
+                "md" : 12,
                 "lg" : 12
               },
               "propertyValues" : {
-                "repeatedCollection" : {
-                  "type" : "variable"
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : ""
                 },
                 "hidden" : {
                   "type" : "constant",
                   "value" : false
                 },
-                "cssClasses" : {
-                  "type" : "constant",
-                  "value" : ""
-                },
-                "dimension" : {
-                  "type" : "constant",
-                  "value" : 12
+                "repeatedCollection" : {
+                  "type" : "variable"
                 }
               },
-              "reference" : "a6b02ed3-2500-424b-a095-2b3c2cd55670",
+              "reference" : "1982df2b-719d-41f5-a074-12821c850a7d",
               "hasValidationError" : false,
               "id" : "pbContainer",
-              "description" : "Auto generate ui for business object \"com.acmebank.model.LoanRequest\"",
               "rows" : [
                 [
                   {
                     "type" : "container",
                     "dimension" : {
-                      "xs" : 12
+                      "xs" : 12,
+                      "md" : 12,
+                      "lg" : 12
                     },
-                    "propertyValues" : { },
+                    "propertyValues" : {
+                      "cssClasses" : {
+                        "type" : "constant",
+                        "value" : ""
+                      },
+                      "hidden" : {
+                        "type" : "constant",
+                        "value" : false
+                      },
+                      "repeatedCollection" : {
+                        "type" : "variable"
+                      }
+                    },
                     "reference" : "3852a8a8-f98c-4183-9f18-4e204ce3bf8c",
                     "hasValidationError" : false,
                     "id" : "pbContainer",
@@ -221,6 +119,10 @@
                             "dimension" : {
                               "type" : "constant",
                               "value" : 12
+                            },
+                            "allowHTML" : {
+                              "type" : "constant",
+                              "value" : false
                             }
                           },
                           "reference" : "b2c5ae5a-6e0b-4c86-b74d-0394386b2ab9",
@@ -378,8 +280,8 @@
                                     "value" : false
                                   },
                                   "hidden" : {
-                                    "type" : "expression",
-                                    "value" : "!loanRequest_selected.idRequester"
+                                    "type" : "constant",
+                                    "value" : true
                                   },
                                   "labelPosition" : {
                                     "type" : "constant",
@@ -441,6 +343,10 @@
                                   "step" : {
                                     "type" : "constant",
                                     "value" : 1
+                                  },
+                                  "debounce" : {
+                                    "type" : "constant",
+                                    "value" : 0
                                   }
                                 },
                                 "reference" : "938c04bd-11f9-4ce8-9487-96e78a9bc3e5",
@@ -505,6 +411,32 @@
                                   "required" : {
                                     "type" : "constant",
                                     "value" : false
+                                  },
+                                  "allowHTML" : {
+                                    "type" : "constant",
+                                    "value" : false
+                                  },
+                                  "minLength" : {
+                                    "type" : "constant",
+                                    "value" : ""
+                                  },
+                                  "maxLength" : {
+                                    "type" : "constant",
+                                    "value" : ""
+                                  },
+                                  "debounce" : {
+                                    "type" : "constant",
+                                    "value" : 0
+                                  },
+                                  "min" : {
+                                    "type" : "constant"
+                                  },
+                                  "max" : {
+                                    "type" : "constant"
+                                  },
+                                  "step" : {
+                                    "type" : "constant",
+                                    "value" : 1
                                   }
                                 },
                                 "reference" : "bce653c3-ce9a-42ef-93b5-f15b127b4886",
@@ -899,7 +831,181 @@
                 ]
               ]
             }
+          ],
+          [
+            {
+              "type" : "component",
+              "dimension" : {
+                "xs" : 12,
+                "sm" : 12,
+                "md" : 4,
+                "lg" : 4
+              },
+              "propertyValues" : {
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "hidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "srcType" : {
+                  "type" : "constant",
+                  "value" : "URL"
+                },
+                "url" : {
+                  "type" : "constant",
+                  "value" : "https://upload.wikimedia.org/wikipedia/commons/d/d5/Bank_account_-_The_Noun_Project.svg"
+                },
+                "assetName" : {
+                  "type" : "expression"
+                },
+                "alt" : {
+                  "type" : "interpolation"
+                }
+              },
+              "reference" : "4a53d88f-91ca-4e21-bc6d-3fdb6c27ba7d",
+              "hasValidationError" : false,
+              "id" : "pbImage"
+            },
+            {
+              "type" : "component",
+              "dimension" : {
+                "xs" : 12,
+                "sm" : 12,
+                "md" : 4,
+                "lg" : 4
+              },
+              "propertyValues" : {
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "hidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "allowHTML" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "text" : {
+                  "type" : "interpolation",
+                  "value" : "Ask for a loan"
+                },
+                "type" : {
+                  "type" : "constant",
+                  "value" : "process"
+                },
+                "targetUrl" : {
+                  "type" : "constant",
+                  "value" : "http://"
+                },
+                "pageToken" : {
+                  "type" : "constant"
+                },
+                "processName" : {
+                  "type" : "constant",
+                  "value" : "LoanRequestPool"
+                },
+                "processVersion" : {
+                  "type" : "constant",
+                  "value" : "2.0"
+                },
+                "taskId" : {
+                  "type" : "constant"
+                },
+                "caseId" : {
+                  "type" : "constant"
+                },
+                "target" : {
+                  "type" : "constant",
+                  "value" : "_self"
+                },
+                "appToken" : {
+                  "type" : "constant"
+                },
+                "urlParams" : {
+                  "type" : "constant"
+                },
+                "alignment" : {
+                  "type" : "constant",
+                  "value" : "center"
+                },
+                "buttonStyle" : {
+                  "type" : "constant",
+                  "value" : "primary"
+                }
+              },
+              "reference" : "5cd80491-b6a5-43fc-9721-31241ef19787",
+              "hasValidationError" : false,
+              "id" : "pbLink"
+            },
+            {
+              "type" : "container",
+              "dimension" : {
+                "md" : 4,
+                "sm" : 12,
+                "xs" : 12,
+                "lg" : 4
+              },
+              "propertyValues" : {
+                "repeatedCollection" : {
+                  "type" : "variable"
+                },
+                "hidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : "card mb-3"
+                },
+                "dimension" : {
+                  "type" : "constant",
+                  "value" : 12
+                }
+              },
+              "reference" : "a6b02ed3-2500-424b-a095-2b3c2cd55670",
+              "hasValidationError" : false,
+              "id" : "pbContainer",
+              "description" : "Auto generate ui for business object \"com.acmebank.model.LoanRequest\"",
+              "rows" : [
+                [ ]
+              ]
+            }
           ]
+        ]
+      }
+    ],
+    [
+      {
+        "type" : "container",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 7,
+          "lg" : 4
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "repeatedCollection" : {
+            "type" : "variable"
+          }
+        },
+        "reference" : "fb4fbd12-d26c-44e5-af0d-602c73ae86f3",
+        "hasValidationError" : false,
+        "id" : "pbContainer",
+        "rows" : [
+          [ ]
         ]
       }
     ]
@@ -941,6 +1047,13 @@
       "type" : "css",
       "order" : 0,
       "external" : false
+    },
+    {
+      "id" : "35b1b7ed-001b-436e-9fc6-31cccb16fec3",
+      "name" : "https://bootswatch.com/5/quartz/bootstrap.min.css",
+      "type" : "css",
+      "order" : 1,
+      "external" : true
     },
     {
       "id" : "628d5ac7-a92f-4896-a961-772833e4c5d0",
