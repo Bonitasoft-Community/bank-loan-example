@@ -1,0 +1,62 @@
+:doctype: book
+:toc: left
+:toclevels: 3
+:sectnums:
+:icons: font
+:source-highlighter: highlightjs
+:idprefix:
+:idseparator: -
+:sectlinks:
+:sectanchors:
+:linkcss: false
+
+:short-bonita-version: 7.15
+:bonita-studio: 2022.2
+:doc-url: https://documentation.bonitasoft.com/bonita/7.15
+:java-version: 11
+= Bank Loan Example
+
+The project **bank-loan-example** is a Bonita project built with **Bonita {bonita-studio}**  **Community** version written in `groovy` language. 
+
+It contains processes at a bank where clients can request a loan. Counselor can then approuve or refuse requests. 
+It is part of the #BonitaExpress journey. It demonstrates how to customize your diagram to make ir more readable and 
+how to use a theme on your Bonita application UIs.
+
+== Features
+
+* How to make your diagram more readable (colors, fonts, size)
+* How to define an application
+* How to use a custom theme
+* How to instantiate a process form a custom UI
+* How to use the currency widget
+* How to filter tasks according to roles
+
+== Getting started
+
+* Use "Production" environment (it should be selected as active). It is already configured with parameters and actor mappings.
+* The project contains 3 different diagrams: 
+ - FundsTransfer
+ - LoanManagement
+ - LoanTypeManagement
+ 
+First, launch AddLoanType process contained in the LoanTypeManagement diagram and define at least a type of loan with a 
+name and an interest rate. Note that what you define here as a Bank Administrator will be shown to Clients when requesting a loan.  
+Then, login as a client (for example thalia.cruz) and open the ACME Bank application. Click on Ask for a Loan and choose duration, amount and type.
+Login as a Committe Member (for example daniela.angelo) to take a look at the request.
+
+For more details, refer to: https://community.bonitasoft.com/blog/all-aboard-bonita-express-stop-2-we-stop-bank
+
+== Developing
+
+Prerequisite:
+
+- **Bonita {bonita-studio}** 
+
+== Links
+
+. Webinar replay Stop#2: https://www.bonitasoft.com/videos/replay-stop-2-to-the-bank
+. Repository: https://github.com/Bonitasoft-Community/bank-loan-example
+. Issue tracker: https://github.com/Bonitasoft-Community/bank-loan-example/issues
+.. In case of sensitive bugs like security vulnerabilities, please contact
+    adoption@bonitasoft.com directly instead of using issue tracker. We value your effort
+    to improve the security and privacy of this project!
